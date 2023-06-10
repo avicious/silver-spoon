@@ -1,0 +1,11 @@
+body {
+  background-color: #e8cf9b;
+  color: #000;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Mukta', sans-serif;
+}
+
+/* font-family: 'Italiana',
+serif; */
