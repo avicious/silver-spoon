@@ -1,11 +1,11 @@
-.chef h2 {
+.dish h2 {
     font-size: 65px;
     margin-bottom: 20px;
 }
 
 .text {
     padding: 45px;
-    border-right: 2px solid #dcc390;
+    border-left: 2px solid #dcc390;
 }
 
 .image {
@@ -17,7 +17,7 @@
     display: block;
 }
 
-.chefSquare {
+.dishSquare {
     position: absolute;
     width: 300px;
     right: 10px;
@@ -25,20 +25,25 @@
     z-index: -1;
 }
 
-.chefCircle {
+.dishCircle {
     width: 80%;
     border-radius: 50%;
     z-index: 100;
 }
 
 @media(max-width: 780px) {
-    .chef h2 {
+    .dish h2 {
         font-size: 55px;
     }
 
     .text {
         border-bottom: 2px solid #dcc390;
-        border-right: none;
+        border-left: none;
+        order: 1;
+    }
+
+    .image {
+        order: 2;
     }
 
     .text,
@@ -48,7 +53,7 @@
 }
 
 @media(max-width: 500px) {
-    .chef h2 {
+    .dish h2 {
         font-size: 45px;
     }
 
@@ -57,12 +62,12 @@
         padding: 25px;
     }
 
-    .chefCircle {
+    .dishCircle {
         width: 80%;
         margin: 0 auto;
     }
 
-    .chefSquare {
+    .dishSquare {
         display: none !important;
     }
 }

@@ -29,13 +29,13 @@ h2 {
 
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-child,
 .right-child {
   width: 50%;
-  justify-content: center;
-  align-items: center;
 }
 
 @media(max-width: 780px) {
