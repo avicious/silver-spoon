@@ -1,4 +1,4 @@
-import { heroMain, heroLeft, heroRight } from "../assets";
+import { heroMain, heroLeft, heroRight } from "../../assets";
 import styles from "./Hero.module.css";
 
 const Hero = () => (

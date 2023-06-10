@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #e8cf9b;
   color: #000;
@@ -18,9 +22,34 @@ p {
   margin: 0;
 }
 
+h1,
+h2 {
+  font-family: 'Italiana', serif;
+}
+
+.container {
+  display: flex;
+}
+
+.left-child,
+.right-child {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
 @media(max-width: 780px) {
   section {
     padding: 40px 20px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .left-child,
+  .right-child {
+    width: 100%;
   }
 }
 
