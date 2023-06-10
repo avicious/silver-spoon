@@ -7,5 +7,28 @@ body {
   font-family: 'Mukta', sans-serif;
 }
 
+section {
+  padding: 60px 30px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+@media(max-width: 780px) {
+  section {
+    padding: 40px 20px;
+  }
+}
+
+@media(max-width: 500px) {
+  section {
+    padding: 20px;
+  }
+}
+
 /* font-family: 'Italiana',
 serif; */
