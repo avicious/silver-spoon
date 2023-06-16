@@ -1,0 +1,28 @@
+.chefs h2 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chefs img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.chefs p {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media(max-width: 780px) {
+    .chefs h2 {
+        font-size: 55px;
+    }
+}
+
+@media(max-width: 500px) {
+    .chefs h2 {
+        font-size: 45px;
+    }
+}

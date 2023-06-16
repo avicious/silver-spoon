@@ -9,7 +9,13 @@ import alina from "./alina.webp";
 import angie from "./angie.webp";
 import james from "./james.webp";
 import michael from "./michael.webp";
-import quote from "./quote.png"
+import quote from "./quote.png";
+
+import chefLeft from "./chef-left.webp";
+import chefRight from "./chef-right.webp";
+import nicolas from "./nicolas.webp";
+import marie from "./marie.webp";
+import jino from "./jino.webp";
 
 export {
   heroMain,
@@ -23,5 +29,10 @@ export {
   angie,
   james,
   michael,
-  quote
+  quote,
+  chefLeft,
+  chefRight,
+  nicolas,
+  marie,
+  jino,
 };
