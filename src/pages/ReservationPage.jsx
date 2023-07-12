@@ -1,6 +1,6 @@
+import Reservation from "../components/Reservation/Reservation";
+
 const ReservationPage = () => {
-  return (
-    <div>ReservationPage</div>
-  )
-}
-export default ReservationPage
+  return <Reservation />;
+};
+export default ReservationPage;
