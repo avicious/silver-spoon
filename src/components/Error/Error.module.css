@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main a {
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    background-color: #000;
+    color: #e8cf9b;
+    margin: 5rem 0 10rem 0;
+}
+
+@media(max-width: 780px) {
+    .main {
+        min-height: 100vh;
+    }
+}

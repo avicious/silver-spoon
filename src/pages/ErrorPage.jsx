@@ -1,6 +1,13 @@
+import Error from "../components/Error/Error";
+import Header from "../components/Root/Header";
+import Footer from "../components/Root/Footer";
 const ErrorPage = () => {
   return (
-    <div>ErrorPage</div>
-  )
-}
-export default ErrorPage
+    <>
+      <Header />
+      <Error />
+      <Footer />
+    </>
+  );
+};
+export default ErrorPage;
