@@ -15,9 +15,24 @@
     margin: 0 auto;
 }
 
+.wrapper {
+    margin-bottom: 4rem;
+}
+
+
+
 @media(max-width: 780px) {
     .chefs h2 {
         font-size: 55px;
+    }
+
+    .wrapper:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
+    .chefs p {
+        max-width: 300px;
+        margin-bottom: 2rem;
     }
 }
 

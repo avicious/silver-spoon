@@ -3,7 +3,7 @@ import { nicolas, marie, jino } from "../../assets";
 
 const Chefs = () => (
   <section className={styles.chefs}>
-    <div className="container">
+    <div className={`${styles.wrapper} container`}>
       <div className="left-child">
         <h2>Nicolas Bart</h2>
         <p>
@@ -17,7 +17,7 @@ const Chefs = () => (
         <img src={nicolas} alt="Nicolas Bart" />
       </div>
     </div>
-    <div className="container">
+    <div className={`${styles.wrapper} container`}>
       <div className="left-child">
         <img src={marie} alt="Marie Lengt" />
       </div>
@@ -31,7 +31,7 @@ const Chefs = () => (
         </p>
       </div>
     </div>
-    <div className="container">
+    <div className={`${styles.wrapper} container`}>
       <div className="left-child">
         <h2>Jino Shoji</h2>
         <p>

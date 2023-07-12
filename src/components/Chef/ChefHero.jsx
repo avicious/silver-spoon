@@ -1,7 +1,4 @@
 import {
-  heroMain,
-  heroLeft,
-  heroRight,
   chefCircle,
   chefLeft,
   chefRight,
