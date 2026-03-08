@@ -2,7 +2,7 @@
 ![silver-spoon](https://github.com/user-attachments/assets/e79ab93f-34ec-4ae5-a1b7-7bf1e0ed3129)
 ## Live Demo
 
-🚀 **Check out the live version of this project here:** https://silver-spoon-ten.vercel.app/
+**Check out the live version of this project here:** https://silver-spoon-ten.vercel.app/
 
 ## Project Overview
 
